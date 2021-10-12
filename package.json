@@ -1,0 +1,19 @@
+{
+  "name": "jest-ses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --trace-warnings' jest"
+  },
+  "dependencies": {
+    "@agoric/install-ses": "^0.5.27"
+  },
+  "jest": {
+    "setupFiles": ["./setupTests.js"]
+  }
+}
